@@ -1,0 +1,20 @@
+.App {
+  /* text-align: center; */
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  background-color: #e3e3e3;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+
+  color: white;
+  display: grid;
+  justify-items: center;
+}
+
+.cardSheduler {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+import React from "react";
+import "./App.css";
+import Navbar from "./Components/navbar";
+import CardCourses from "./Components/cardCourses";
+import CardShedule from "./Components/cardSheduler";
+import Footer from "./Components/footer";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <header className="App-header">
+          <Route exact path="/courses" component={CardCourses} />
+          <Route exact path="/shedule" component={CardShedule} />
+          {/* <CardCourses /> */}
+        </header>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
