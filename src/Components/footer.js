@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2)
   },
   toolbar: {
-    minHeight: 128,
+    minHeight: 150,
     alignItems: "flex-start",
     paddingTop: theme.spacing(1),
     paddingBottom: theme.spacing(2)
@@ -31,17 +31,21 @@ export default function ProminentAppBar() {
     <div className={classes.root}>
       <AppBar
         position="relative"
-        style={{ backgroundColor: "#C60021", textAlign: "center" }}
+        style={{
+          backgroundColor: "#C60021",
+          textAlign: "center",
+          zIndex: "0"
+        }}
       >
         <Toolbar className={classes.toolbar}>
           <Typography className={classes.title} variant="h6" noWrap>
             © Developed by{" "}
             <Button
               style={{ color: "#F6F6F8", fontSize: "15px" }}
-              href="https://ammarmasood.github.io/my-portfolio/"
+              href="#"
               target="_blank"
             >
-              CLICK ME!
+              WILL ADD LATER
             </Button>
           </Typography>
         </Toolbar>

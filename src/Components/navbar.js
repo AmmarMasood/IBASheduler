@@ -5,6 +5,10 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
+import "./style/navbarStyle.css";
+import Sidebar from "./sidebar";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,14 +25,13 @@ const useStyles = makeStyles(theme => ({
 export default function Navbar() {
   const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
-      <AppBar style={{ backgroundColor: "#C60021" }} position="static">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            IBA Sheduler
-          </Typography>
-          <Button color="inherit">Home</Button>
+  const navbarLinks = () => {
+    return (
+      <>
+        <div className="navbar-links">
+          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Button color="inherit">Home</Button>
+          </Link>
           <Link
             to="/shedule"
             style={{ textDecoration: "none", color: "inherit" }}
@@ -41,6 +44,30 @@ export default function Navbar() {
           >
             <Button color="inherit">Courses</Button>
           </Link>
+        </div>
+        <div id="navbar-drawer">
+          <input
+            type="checkbox"
+            className="sidebar-checkbox"
+            id="navi-toggle"
+          ></input>
+          <Sidebar />
+          <MenuIcon />
+        </div>
+      </>
+    );
+  };
+  return (
+    <div className={classes.root}>
+      <AppBar
+        style={{ backgroundColor: "#C60021" }}
+        // position="static"
+      >
+        <Toolbar>
+          <Typography variant="h6" className={classes.title}>
+            IBA Sheduler
+          </Typography>
+          {navbarLinks()}
         </Toolbar>
       </AppBar>
     </div>

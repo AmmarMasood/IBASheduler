@@ -1,0 +1,55 @@
+.navbar-links {
+}
+#navbar-drawer {
+  display: none;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+.sidebar-checkbox {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  width: 50%;
+  z-index: -1;
+  background-color: #c60021;
+  height: 100%;
+  transition: all 0.3s;
+  transform: translateX(200px);
+
+  /* margin-top: 30px; */
+}
+.sidebar-items {
+  margin-top: 55%;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.sidebar-item {
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  padding: 6px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+#navi-toggle:checked ~ .sidebar {
+  /* background-color: gainsboro; */
+  /* transform: scale(80); */
+  transform: translateX(0px);
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 450px) {
+  /* Styles */
+  .navbar-links {
+    display: none;
+  }
+  #navbar-drawer {
+    display: inline-block;
+  }
+}

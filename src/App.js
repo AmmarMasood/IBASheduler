@@ -4,6 +4,7 @@ import Navbar from "./Components/navbar";
 import CardCourses from "./Components/cardCourses";
 import CardShedule from "./Components/cardSheduler";
 import Footer from "./Components/footer";
+import Home from "./Components/home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="App">
         <Navbar />
         <header className="App-header">
+          <Route exact path="/" component={Home} />
           <Route exact path="/courses" component={CardCourses} />
           <Route exact path="/shedule" component={CardShedule} />
           {/* <CardCourses /> */}

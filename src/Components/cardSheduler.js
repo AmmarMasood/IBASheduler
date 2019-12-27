@@ -26,6 +26,7 @@ class cardSheduler extends Component {
       gridTemplateRows: "0.5fr 4fr"
     };
     const navStyle = {
+      marginTop: "80px",
       backgroundColor: "#C60021",
       padding: "10px",
       textAlign: "center"

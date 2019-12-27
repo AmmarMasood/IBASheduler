@@ -1,8 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
 .App {
   /* text-align: center; */
   display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-rows: 30px 4fr 1fr;
   background-color: #e3e3e3;
+  overflow: hidden;
+}
+.home {
+  background: linear-gradient(
+      0deg,
+      rgba(198, 0, 33, 0.31976540616246496) 3%,
+      rgba(255, 255, 255, 0.29175420168067223) 67%
+    ),
+    url("./images/IBA-33.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+
+.home-text {
+  /* border: 2px solid red; */
+  font-size: 160%;
+  text-align: center;
+  margin-top: 170px;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+}
+.home-buttons {
+  /* border: 2px solid yellow; */
+  font-size: 180%;
+
+  text-align: center;
 }
 
 .App-header {
