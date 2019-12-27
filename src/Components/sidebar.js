@@ -11,7 +11,7 @@ export default function sidebar() {
     <div className="sidebar" id="sidebar-nav">
       <ul className="sidebar-items">
         <Link
-          to="/"
+          to="/IBASheduler"
           style={{ textDecoration: "none", color: "inherit" }}
           onClick={uncheckNav}
         >

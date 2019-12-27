@@ -28,7 +28,10 @@ export default function Navbar() {
     return (
       <>
         <div className="navbar-links">
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/IBASheduler"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <Button color="inherit">Home</Button>
           </Link>
           <Link

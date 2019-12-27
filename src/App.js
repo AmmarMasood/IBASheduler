@@ -13,6 +13,7 @@ function App() {
         <Navbar />
         <header className="App-header">
           <Route exact path="/" component={Home} />
+          <Route exact path="/IBASheduler" component={Home} />
           <Route exact path="/courses" component={CardCourses} />
           <Route exact path="/schedule" component={CardShedule} />
           {/* <CardCourses /> */}
