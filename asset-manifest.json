@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IBASheduler/static/css/main.392ef74f.chunk.css",
+    "main.css": "/IBASheduler/static/css/main.bc29746a.chunk.css",
     "main.js": "/IBASheduler/static/js/main.d2a9d230.chunk.js",
     "main.js.map": "/IBASheduler/static/js/main.d2a9d230.chunk.js.map",
     "runtime-main.js": "/IBASheduler/static/js/runtime-main.5f72ea23.js",
@@ -8,16 +8,16 @@
     "static/js/2.f33a3383.chunk.js": "/IBASheduler/static/js/2.f33a3383.chunk.js",
     "static/js/2.f33a3383.chunk.js.map": "/IBASheduler/static/js/2.f33a3383.chunk.js.map",
     "index.html": "/IBASheduler/index.html",
-    "precache-manifest.575a427756b6041da7c60c0333c88e58.js": "/IBASheduler/precache-manifest.575a427756b6041da7c60c0333c88e58.js",
+    "precache-manifest.9f52fb3f167efb7a3757d3398f00ac00.js": "/IBASheduler/precache-manifest.9f52fb3f167efb7a3757d3398f00ac00.js",
     "service-worker.js": "/IBASheduler/service-worker.js",
-    "static/css/main.392ef74f.chunk.css.map": "/IBASheduler/static/css/main.392ef74f.chunk.css.map",
+    "static/css/main.bc29746a.chunk.css.map": "/IBASheduler/static/css/main.bc29746a.chunk.css.map",
     "static/js/2.f33a3383.chunk.js.LICENSE": "/IBASheduler/static/js/2.f33a3383.chunk.js.LICENSE",
     "static/media/App.css": "/IBASheduler/static/media/IBA-33.efe995d1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5f72ea23.js",
     "static/js/2.f33a3383.chunk.js",
-    "static/css/main.392ef74f.chunk.css",
+    "static/css/main.bc29746a.chunk.css",
     "static/js/main.d2a9d230.chunk.js"
   ]
 }
