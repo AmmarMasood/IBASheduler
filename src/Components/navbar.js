@@ -5,7 +5,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./style/navbarStyle.css";
 import Sidebar from "./sidebar";
@@ -33,10 +32,10 @@ export default function Navbar() {
             <Button color="inherit">Home</Button>
           </Link>
           <Link
-            to="/shedule"
+            to="/schedule"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <Button color="inherit">Shedule</Button>
+            <Button color="inherit">Schedule</Button>
           </Link>
           <Link
             to="/courses"
@@ -65,7 +64,7 @@ export default function Navbar() {
       >
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            IBA Sheduler
+            IBA Scheduler
           </Typography>
           {navbarLinks()}
         </Toolbar>

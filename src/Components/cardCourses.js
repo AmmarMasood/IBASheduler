@@ -83,7 +83,7 @@ export default function CenteredGrid() {
                     variant="outlined"
                   >
                     {currencies.map(option => (
-                      <option key={option.value} value={option.value}>
+                      <option key={option.name} value={option.value}>
                         {option.name}
                       </option>
                     ))}

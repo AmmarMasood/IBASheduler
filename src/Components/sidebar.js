@@ -18,11 +18,11 @@ export default function sidebar() {
           <li className="sidebar-item">Home</li>
         </Link>
         <Link
-          to="/shedule"
+          to="/schedule"
           style={{ textDecoration: "none", color: "inherit" }}
           onClick={uncheckNav}
         >
-          <li className="sidebar-item">Shedule</li>
+          <li className="sidebar-item">Schedule</li>
         </Link>
         <Link
           to="/courses"

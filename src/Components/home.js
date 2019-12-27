@@ -11,14 +11,14 @@ const home = () => {
   };
   return (
     <div className="home">
-      <h1 className="home-text">Shedule your courses now</h1>
+      <h1 className="home-text">Schedule your courses now</h1>
       <div className="home-buttons">
         <Link
-          to="/shedule"
+          to="/schedule"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Button style={homeButton} variant="contained" color="secondary">
-            Shedule
+            Schedule
           </Button>
         </Link>
         <Link

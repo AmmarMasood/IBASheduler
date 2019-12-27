@@ -14,7 +14,7 @@ function App() {
         <header className="App-header">
           <Route exact path="/" component={Home} />
           <Route exact path="/courses" component={CardCourses} />
-          <Route exact path="/shedule" component={CardShedule} />
+          <Route exact path="/schedule" component={CardShedule} />
           {/* <CardCourses /> */}
         </header>
         <footer>

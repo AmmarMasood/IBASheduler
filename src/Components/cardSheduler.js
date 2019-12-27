@@ -37,7 +37,7 @@ class cardSheduler extends Component {
         {/* app bar start */}
         <div>
           <AppBar position="static" style={navStyle}>
-            <Typography variant="h6">Shedule</Typography>
+            <Typography variant="h6">Schedule</Typography>
           </AppBar>
         </div>
         {/* app bar end */}

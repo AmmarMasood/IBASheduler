@@ -194,7 +194,7 @@ class CourseList extends Component {
           {displaySelectedCourses()}
           <div style={buttonStyle}>
             <Button variant="outlined" color="secondary">
-              Shedule
+              Schedule
             </Button>
           </div>
         </div>
