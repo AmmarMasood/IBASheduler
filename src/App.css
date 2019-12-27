@@ -20,7 +20,21 @@
   width: 100%;
   /* border: 2px solid green; */
 }
-
+@media only screen and (max-width: 450px) {
+  /* Styles */
+  .home {
+    background: linear-gradient(
+        0deg,
+        rgba(198, 0, 33, 0.31976540616246496) 3%,
+        rgba(255, 255, 255, 0.29175420168067223) 67%
+      ),
+      url("./images/IBA-33-medium.png");
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  }
+}
 .home-text {
   /* border: 2px solid red; */
   font-size: 160%;
