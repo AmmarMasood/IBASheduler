@@ -2,7 +2,7 @@
   "name": "sheduler",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ammarmasood.github.io/IBASheduler/",
+  "homepage": "https://ammarmasood.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.8.1",
     "@material-ui/icons": "^4.5.1",
